@@ -1,0 +1,27 @@
+<plugin name='marshallers' version='0.5-SNAPSHOT' grailsVersion='1.1 &gt; *'>
+  <author>Predrag Knezevic</author>
+  <authorEmail>pedjak@gmail.com</authorEmail>
+  <title>Easy Custom XML and JSON Marshalling for Grails Converters</title>
+  <description>\
+Easy registration and usage of custom XML and JSON marshallers supporting hierarchical configurations.
+
+Further documentation can be found &lt;a href="http://github.com/pedjak/grails-marshallers"&gt;here&lt;/a&gt;.
+</description>
+  <documentation>http://github.com/pedjak/grails-marshallers</documentation>
+  <type>MarshallersGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <test>
+      <dependency group='org.spockframework' name='spock-grails-support' version='0.7-groovy-2.0' />
+    </test>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='converters' version='grailsVersion' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>

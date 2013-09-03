@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>marshallers</artifactId>
+  <version>0.5-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>0.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130903120427</lastUpdated>
+  </versioning>
+</metadata>
