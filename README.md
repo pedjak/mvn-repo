@@ -1,4 +1,1 @@
-mvn-repo
-========
-
-mvn-repo
+A Maven repository hosted on Github
