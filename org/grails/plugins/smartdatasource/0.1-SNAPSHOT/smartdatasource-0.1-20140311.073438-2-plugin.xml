@@ -1,0 +1,31 @@
+<plugin name='smartdatasource' version='0.1-SNAPSHOT' grailsVersion='1.3.7 &gt; *'>
+  <author>Denis Halupa</author>
+  <authorEmail>denis.halupa@gmail.com</authorEmail>
+  <title>Smartdatasource Plugin</title>
+  <description>This is the plugin which supports operation of smartclient datasources
+</description>
+  <documentation>http://grails.org/plugin/smartdatasource</documentation>
+  <type>SmartdatasourceGrailsPlugin</type>
+  <resources>
+    <resource>SmartUrlMappings</resource>
+    <resource>org.grails.plugins.smartdatasource.DatasourceController</resource>
+    <resource>org.grails.plugins.smartdatasource.service.DataSourceDefinitionService</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='https://github.com/pedjak/mvn-repo/raw/master' url='https://github.com/pedjak/mvn-repo/raw/master/' />
+  </repositories>
+  <dependencies>
+    <test>
+      <dependency group='org.spockframework' name='spock-grails-support' version='0.7-groovy-2.0' />
+    </test>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='marshallers' version='0.5-SNAPSHOT' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
